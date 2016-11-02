@@ -1,0 +1,162 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{multicol}
+% *********  Set some sensible page margins  ***********
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.2in}
+\setlength{\topmargin}{-0.3in} \setlength{\textheight}{9.8in}
+\title {Departmental Reports - Standards}
+\author {Nigel Hardy}
+\date{30 June 1994} % Leave this out to generate date automatically
+
+\begin{document}
+\maketitle
+\begin{multicols}{2}
+\section{Purpose of this document}
+
+This document lays down the standards and procedures
+for the production, quality assurance and archiving of
+technical reports within the department.
+
+
+\section{Management}
+
+A “Technical Report Manager” is appointed by
+the Head of Research. This person is responsible
+for
+\begin{enumerate}  
+
+\item Issuing unique report references (see section~\ref{sec:docrefs})
+\item Quality assurance on matters of presentation (see Section~\ref{sec:presstand})
+\item Assuring that reports pass through a quality assurance process which considers their contents (see Section~\ref{sec:contstand}
+\item Acceptance, archiving and distribution of reports which have passed both quality as assurance processes (see Section~\ref{sec:arch})
+\end{enumerate}
+
+\section{Document references}
+\label{sec:docrefs}
+
+All reports have a reference of the form
+\hspace{1cm}UWA-DCS-yy-xxx
+\newline
+where yy is the year of original production and xxx is a unique number for the report
+
+\section{Presentation Standards}
+\label{sec:presstand}
+All reports will be produced using the deptrept \LaTeX style file.
+\newline
+\indent In general terms this defines:
+\begin{enumerate}
+\item material for the front page which includes:
+\begin{enumerate}
+\item the title;
+\item he report reference;
+\item the date of the version;
+\item the version number;
+\item the report status;
+\item the address of the department and a copyright notice.
+\end{enumerate}
+\item page, section and similar styles for the body of the document.
+\end{enumerate}
+A proform source file (report-proforma.tex) to
+accompany the LaTeX style is available and gives additional guidelines.
+
+It is not intended that tight control be exercised over
+the fine detail of presentation. Attempts to alter the
+general appearance of the documents from that layed
+down will be rejected. It is recognised that on rare
+occasions a special document may need to deviate.
+
+\section{Bibilography}
+The plain bibliography style should be used or followed. This will result in bibliographies 
+as shown in \cite{1}
+\section{Content Standards}
+\label{sec:contstand}
+Before promotion from draft to release or restricted
+status (see Section ) a report must pass a quality assurance process which examines its content. A change of
+status form, available from the Technical Report Manager, must be completed by the person approving a report.
+
+Three methods are available, reflecting the circumstances in which a report is produced.
+
+\subsection{Postgraduate Students}
+For reports written by postgrad students (as part of
+their directed study), the report should be approved by
+the supervisor.
+\subsection{Research Associates and Assistants}
+For reports produced by RAs working on funded
+projects (as part of that project), the report should be
+approved by a principal investigator.
+\subsection{Staff}
+For reports produced by members of staff and for those
+produced by postgraduates or RAs other than as part of
+their main project, at least one member of the academic
+staff should read and approve it.
+\section{Archiving and Distribution}
+\label{sec:arch}
+Writers of reports are responsible for keeping the source
+of the report. The Technical Report manager will receive and archive postscript versions.
+\section{Report Status}
+The staus of a report will be one of:
+\begin{itemize}
+\item draft
+\item restricted
+\item release
+\end{itemize}
+A report starts as draft. It is not for distribution
+beyond those concerned with producing or reviewing
+it. When both presentation and contents have the QA
+procedures it can progress to release or restricted. A
+report with restricted status is assumed to contain confidential information and can only be made available
+by its author(s) or by the supervisor or principle investigator responsible for its production. A report with
+release status can be freely distributed by anybody, this
+includes people outside the department passing it on to
+others.
+\section{Report Status}
+\label{sec:report}
+When a report is approved for promotion from draft
+status it becomes version 2.1. Draft versions will therefore be 1.x.
+When a report is approved for promotion from draft
+status it becomes version 2.1. Draft versions will therefore be 1.x.
+
+After the initial release or restricted version, the author(s) may work further on the document and wish to
+produce a new version. This should be done by working
+on documents whose status returns to draft and which
+have version numbers 2.2, 2.3 etc. At some stage the
+achieve release or restricted status with a version number of 3.1. This process can continue through major
+version numbers. A new major version need not have
+the same status as its predecessor, i.e. a restricted document could become release in a later version.
+
+Old release versions of reports will remain available
+for distribution. If copies are requested, both the current and any specific older version requested will be
+sent.
+\section{Summary}
+The "lifecycle" of a report is as follows.
+\begin{enumerate}
+\item The author thinks (or is told) of something to write
+about.
+\item The author sends the title to the Technical Report
+Manager and requests a report reference.
+\item The author seeks an appropriate person to check the
+contents for quality.
+\item That person (eventually) fills in a change of status
+form.
+\item The author passes the change of status form to the
+Technical Report Manager, along with the pathname of the postscript of version 2.1
+\item The Technical Report Manager checks that the document meets presentation standards. Changes may
+be requested. The author must keep on providing
+updated postscript files which say version 2.1. The
+author should be able to do this assuming that 2.1
+is created from the latest 1.x with no change of content. It is unlikely that any changes required will
+invalidate the change of status form, but the manager should be aware of this possibility.
+\item The Technical Report Manager archives and distributes the postscript.
+\item Updates progress via the same steps, omitting 1, 2
+and possibly 3. All updates must be checked for
+both content and presentation.
+\end{enumerate}
+\begin{thebibliography}{9}
+\bibitem{1}
+Nigel Hardy. Departmental reports - stan-
+dards.   Technical report, Department of
+Computer  Science,  University  of  Wales,
+Aberystwyth, 1994.
+\end{thebibliography}
+\end{multicols}
+\end{document}

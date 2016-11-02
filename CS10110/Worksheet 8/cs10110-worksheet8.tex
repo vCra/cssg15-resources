@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[left=1.25in,right=1.25in,top=1in,bottom=1in]{geometry}
+
+\title{Practical 8: An exercise in \LaTeX}
+\author{Michael Clarke}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Objectives}
+In this practical you are given a text document, and asked to mark it up and
+process it using \LaTeX\ so that it looks something like the supplied PDF
+document. These two documents are available from blackboard.
+
+You will need to download the .txt file to your CS10110 directory (or somewhere else suitable).
+
+The exercise is for you to produce output looking as much like the provided PDF 
+as possible. You should note the following:
+
+\begin{itemize}
+\item The \verb|article| document class was used.
+\item There is a \verb|twocolumn| option to the document class (see The Not So Short introduction to \LaTeX2e).
+\item The document contains a number of {\em See Section x} internal cross references. you will need \verb|label/ref| pairs to implement these.
+\item You may find the \verb|quotation| environment helpful.
+\item For the bibliography, the smart way to do it is using something called BibTeX, but we haven't time to go into that in this module. Investigate \verb|theBibliography| instead. Don't worry too much about this though, if you get lost.
+\end{itemize}
+
+You should produce a source file called doc.tex. Initially, just copy the text file to this file; it will be the basis for your document.
+
+You should produce PDF output in a file called \verb|doc.pdf|.
+
+\section{Suggestions}
+\begin{enumerate}
+\item An example of the output required is available on-line, linked from Blackboard.
+\item The table need not be a floating fable as illustrated in the example. You do not, therefore, require a ``List of Tables''.
+\item It is probably best to start with a very simple document, check that you can process it and view the output, and then build up towards the final document.
+\item Few people actually remember all the commands for the headers of a \LaTeX document, they just copy and paste them from a previous document. So, to get you started, you can use the template.tex file, also available on blackboard.
+\end{enumerate}
+\end{document}

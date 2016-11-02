@@ -1,0 +1,29 @@
+\documentclass[a4paper, 12pt]{article}
+
+% *********  Set some sensible page margins  ***********
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.2in}
+\setlength{\topmargin}{-0.3in} \setlength{\textheight}{9.8in}
+
+\title{The title}
+\author{Your name}
+\date{2nd December 2010} % Leave this out to generate date automatically
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{A section}
+\subsection{A subsection}
+
+The content
+
+\section{Another section}
+
+More ramblings
+
+\section*{A section without numbering}
+
+The end
+
+\end{document}

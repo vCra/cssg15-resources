@@ -1,0 +1,150 @@
+Departmental Reports - Standards
+Nigel Hardy
+30 June 1994
+
+Purpose of this document
+
+This document lays down the standards and procedures
+for the production, quality assurance and archiving of
+technical reports within the department.
+
+Management
+
+A Technical Report Manager is appointed by the
+Head of Research. This person is responsible for
+Issuing unique report references (see Section)
+Quality assurance on matters of presentation (see Section)
+Ensuring that reports pass through a quality assurance process which
+considers their contents (see Section)
+Acceptance, archiving and distribution of reports
+which have passed both quality assurance processes (see Section).
+
+Document references
+All reports have a reference of the form
+
+UWA-DCS-yy-xxx
+
+where yy is the year of original production and xxx
+is a unique number for the report.
+
+Presentation Standards
+All reports will be produced using the deptrept LaTeX style file.
+
+In general terms this defines:
+
+material for the front page which includes:
+
+the title;
+the report reference;
+the date of the version;
+the version number;
+the report status;
+the address of the department and a copyright notice.
+
+page, section and similar styles for the body of the
+document.
+
+A proform source file (report-proforma.tex) to
+accompany the LaTeX style is available and gives additional guidelines.
+
+It is not intended that tight control be exercised over
+the fine detail of presentation. Attempts to alter the
+general appearance of the documents from that layed
+down will be rejected. It is recognised that on rare
+occasions a special document may need to deviate.
+
+Bibilography
+
+The plain bibliography style should be used or followed. This will result in bibliographies 
+as shown in .
+
+Content Standards
+Before promotion from draft to release or restricted
+status (see Section ) a report must pass a quality assurance process which examines its content. A change of
+status form, available from the Technical Report Manager, must be completed by the person approving a report.
+
+Three methods are available, reflecting the circumstances in which a report is produced.
+
+Postgraduate Students
+
+For reports written by postgrad students (as part of
+their directed study), the report should be approved by
+the supervisor.
+
+Research Associates and Assistants
+
+For reports produced by RAs working on funded
+projects (as part of that project), the report should be
+approved by a principal investigator.
+
+Staff
+
+For reports produced by members of staff and for those
+produced by postgraduates or RAs other than as part of
+their main project, at least one member of the academic
+staff should read and approve it.
+
+Archiving and Distribution
+Writers of reports are responsible for keeping the source
+of the report. The Technical Report manager will receive and archive postscript versions.
+
+Report Status
+The staus of a report will be one of:
+
+draft
+resticted
+release
+
+A report starts as draft. It is not for distribution
+beyond those concerned with producing or reviewing
+it. When both presentation and contents have the QA
+procedures it can progress to release or restricted. A
+report with restricted status is assumed to contain confidential information and can only be made available
+by its author(s) or by the supervisor or principle investigator responsible for its production. A report with
+release status can be freely distributed by anybody, this
+includes people outside the department passing it on to
+others.
+
+Report Versions
+When a report is approved for promotion from draft
+status it becomes version 2.1. Draft versions will therefore be 1.x.
+
+After the initial release or restricted version, the author(s) may work further on the document and wish to
+produce a new version. This should be done by working
+on documents whose status returns to draft and which
+have version numbers 2.2, 2.3 etc. At some stage the
+achieve release or restricted status with a version number of 3.1. This process can continue through major
+version numbers. A new major version need not have
+the same status as its predecessor, i.e. a restricted document could become release in a later version.
+
+Old release versions of reports will remain available
+for distribution. If copies are requested, both the current and any specific older version requested will be
+sent.
+
+Summary
+The "lifecycle" of a report is as follows.
+
+The author thinks (or is told) of something to write
+about.
+The author sends the title to the Technical Report
+Manager and requests a report reference.
+The author seeks an appropriate person to check the
+contents for quality.
+That person (eventually) fills in a change of status
+form.
+The author passes the change of status form to the
+Technical Report Manager, along with the pathname of the postscript of version 2.1
+The Technical Report Manager checks that the document meets presentation standards. Changes may
+be requested. The author must keep on providing
+updated postscript files which say version 2.1. The
+author should be able to do this assuming that 2.1
+is created from the latest 1.x with no change of content. It is unlikely that any changes required will
+invalidate the change of status form, but the manager should be aware of this possibility.
+The Technical Report Manager archives and distributes the postscript.
+Updates progress via the same steps, omitting 1, 2
+and possibly 3. All updates must be checked for
+both content and presentation.
+
+
+
+

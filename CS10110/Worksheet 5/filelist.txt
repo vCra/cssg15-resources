@@ -1,0 +1,11 @@
+total 132
+-rw-r----- 1 aaw13 4660     13 Oct 19 16:07 btfdksjf
+-rwxr-x--x 3 aaw13 4660    173 Nov  2 16:18 cars.txt
+drwxr-xr-x 3 aaw13 4660      0 Oct 28 11:13 data
+-rw-r----- 1 aaw13 4660     11 Oct 19 16:07 emptyfile
+-rw-r----- 1 aaw13 4660      9 Oct 19 16:07 fbhsjkf
+-rw-r----- 1 aaw13 4660      0 Nov  2 16:20 filelist.txt
+-rwxr-x--x 3 aaw13 4660    173 Nov  2 16:18 hi
+lrwxrwxrwx 1 aaw13 4660      4 Oct 28 11:13 hii -> data
+drwxr-xr-x 2 aaw13 4660      0 Oct 19 16:16 part2
+-rw-r----- 1 aaw13 4660 114688 Oct 19 16:22 typescript

@@ -1,0 +1,104 @@
+\documentstyle{article}
+\title{Capture of colour pictures using visilog}
+\author{Neal Snooke}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+It is possible to use Zeus and the visilog software to capture 
+colour images.  Because of the 8 bit deep frame buffer the 
+procedure is divided into several stages, explained in the next sections.
+The captured pictures can be converted in to almost any format. eg.
+PPM, TIFF, GIF etc.
+
+\section{Process overview}
+
+The entire process is divided into the following stages:
+\begin{itemize}
+\item set up the hardware
+\item capture red, green and blue image components
+\item combine the RGB files and convert from visilog to a
+      more useful single file format
+\item adjust the colour balance and quantize the colour palette
+\item store in the format of your choice
+\end{itemize}
+
+\section{Set up the hardware}
+
+Make sure the following have been performed:
+\begin{itemize}
+\item login to Zeus do not run Xwindows !
+\item Make sure the RGB and sync leads from the colour camera are connected
+      to the small grey box (sync generator)
+\item Make sure the RGB leads from the sync generator lead to
+      channels 1, 2, and 3 (red, green, blue {\em resp}) on the frame
+      buffer card on Zeus.  
+\item Turn on the camera power supply and sync generator.  The sync generator
+      requires a 9V battery to operate.
+\item Turn on the secondary colour monitor next to Zeus 
+\end{itemize}
+
+\section{Image capture}
+
+To run visilog you must be in the Suntools window system. Visilog must
+also be run from the correct directory.
+\begin{verbatim}
+Zeus: Suntools
+
+Zeus: cd /usr/local/visilog/monitor
+Zeus: visilog
+\end{verbatim}
+
+If all is well the main visilog window will occupy most of the main
+monitor.  Click on the `:256' icon and select an image size of 512.
+
+To test the camera click on the `GRAB' icon select channel 2, quadrant 4,
+and and name, a live video picture will appear on the secondary monitor. 
+Answer the `freeze frame' question with your choice (does not matter). 
+If no image appears check the brightness controls, camera RGB leads,
+power supply and sync box battery (green led should be lit). 
+
+The strategy now is to capture 3 images, one from each channel, and
+then store them to 3 files called `red.cam', `green.cam', `blue,cam'.
+It is a good idea to change directory to your home filestore, or failing
+that /tmp will do.  To do this click on the `chd' selection from the
+`utilities' menu (default).
+
+A file exists that will force visilog to automatically capture the 
+required images and write them to the current directory.  Available
+from {\bf ~nns/vlog/capture.j}. Click on the `PLAY' selection and specify
+this file.  Visilog will prompt for continuous or step by step play, -
+if the first image flickers when using continuous then use step-by-step.
+(continuous usually works, but not always ??)
+
+\section{Image Conversion}
+
+Assuming you now have three files (called `red.cam', `green.cam', `blue.cam'
+these should be 262144 bytes each) you can run a small program called
+{\bf ~nns/vlog/cam2ppm} to merge these into a single file which will be 
+in the .PPM
+format.  You will need another shell window to perform the conversion.
+\begin{verbatim}
+MACHINE% cam2ppm > myfile.ppm
+\end{verbatim}
+
+Theoretically the image is now ready for use.  However it will usually
+have slightly odd colour characteristics, due to the lighting etc.  Also
+the 24 bit colour will need to be quantized to 8 bits for most displays.
+
+The best way to achieve this is to use {\bf xv}.  Load the created image
+and select `COL EDIT' where the colour components, intensity, contrast
+etc can be adjusted via a very nice graphical interface.
+The file can subsequently
+be written in the format of your choice with the 'SAVE' menu.  The image
+can also be cropped if the edges are poor.
+
+The output file will be considerably smaller (PPM, GIF, TIFF) due to the colour 
+quantization performed by {\bf xv}.  Beware of postscript as the resulting file
+could be MASSIVE 1-2Mb.
+
+As {\bf xv} cannot be run in sunview (!) you must either quit visilog and 
+sunview
+and run X or log on to another machine to play with the image.
+\end{document}

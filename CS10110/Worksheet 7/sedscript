@@ -1,0 +1,63 @@
+\/title/{
+	s/\\title{/<title>/
+	s/}/<\/title>/
+}
+
+\/section/{
+        s/\\section{/<h1>/
+        s/}/<\/h1>/
+}
+
+\/documentstyle/{
+        s/\\documentstyle{.*}//
+}
+
+\/maketitle/{
+        s/\\maketitle//
+}
+
+\/author/{
+        s/\\author{/<b>/
+	s/}/<\/b>/
+}
+
+s/^$/<p>/
+
+/begin/{
+        s/\\begin{itemize}/<UL>/
+
+}
+/begin{verbatim}/,/end{verbatim}/{
+	s/^/<code>/
+	s/$/<\/code><br>/
+}
+/\\begin{verbatim}/d
+/\\end{verbatim}/d
+\/item/{
+        s/\\item/<LI>/
+}
+
+/bf/{
+        s/{\\bf/<b>/
+        s/}/<\/b>/
+}
+/em/{
+        s/{\\em/<i>/
+        s/}/<\/i>/
+}
+
+
+
+
+1i\
+<HTML> \
+<HEAD>
+s/\\begin{document}/<BODY>/
+/\\end{document}/{
+i\
+<\/BODY>
+d
+}
+$a\
+<P>document automatically converted from LaTeX to HTML
+
