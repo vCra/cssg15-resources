@@ -1,0 +1,15 @@
+greetEnglish :: String -> String
+greetEnglish name = 
+	"Hello" ++ name
+	
+greetFrench :: String -> String
+greetFrench name = 
+	"Bonjour" ++ name
+	
+greet :: String -> Char -> String
+greet name lang = 
+	if lang == 'e'
+		then greetEnglish name
+		else greetFrench name
+		
+		
