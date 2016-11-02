@@ -1,0 +1,72 @@
+Bonks and Zaps To Do
+********************MAKE SURE THE DEFAULT PARAMETERS ARE CORRECT 5 20 20 20 550********************
+		Make creatures move //Test. //Tested, works.
+		Make Zaps kill Bonks
+		Change isDead to isAlive?
+		Make Zaps named.
+		Room toString is cleaner, describe count of Bonk/Zap instead of full toString.
+		Add turn counter
+		Make Bonks named
+		Make creatures only act once.
+		Print out the current turn.
+		Some creatures moving two spaces.
+		If not moving, print out is wrong  (value wrong)?
+		Within Zap's act, check for alive Bonks in room, kill if they're there, then exit loop and super.act().
+		Reset hasActed after each cycle.
+		Check variables are private
+		Make Bonks move
+		Make CannotActException
+		Replace canAct checks with try/catch (thrown from act() exception)
+		Return null should be changed to suitable custom exceptions and try/catch.
+		Make Bonks reproduce
+		Add a menu.
+		Make better command line argument getter. (Deprecated.)
+		Stop it saying 51 turns, -1 turns left at game time-end.
+		Check if public can be private
+		Instructions as part of menu.
+		Summary at end of turn describes properly
+		Make creature and mortal abstract? (Cannot make objects of them)
+		getLocation() can return room or position?	
+		Don't use super() methods and nothing else.
+		Exceptions make it so that first exception throw returns from act() so many things don't act.
+		Separate packages, one for Creature etc.?
+		Add package (Check email 18/04/16)
+		Might need to do something better with the Interrupt in startGame()? Throw/try/catch
+		Check that exceptions' catch statements are ordered right
+		Check ToDos carefully
+		Summary at end of turn describes properly (See brief).
+		***BONKS REPRODUCING FAR TOO MUCH*** /?
+		Implement Flair (Below)
+---------------------------------------------
+Add JavaDocs.
+		
+		Find out if more turns increases or decreases Bonks' Winning chances.
+			Add lore (Read in from file, place randomly (via populateWorld?)
+	
+	Write evaluation.
+	Do class diagrams etc.
+Make apt. methods final.
+			Cleaner version of zapCount and bonkCount.
+Make it less nihilistic?
+---------------------------------------------
+My biggest problem was that when moving, it was difficult to change the Creature's room in my original code. To fix this, I made the lists of Bonks and Zaps instances of the Engine class, instead of the Room class, so that it could query their positions effectively. This was also more efficient, as previously the Engine needed to query a lot of information from the Room class.
+I decided not to allow Zaps to kill baby Bonks, as that seemed a bit dark.
+Need to argue for giving Zaps actual subset of Bonks.
+It seems to take, on average, 534 turns to kill all the Bonks. I have encoded the default turnsMax therefore as 550, as this is a nice round number with a small bit of leeway.
+Wrong?
+I had an issue with Bonks reproducing out of control, but this can be adjusted by using the breedChance flair in a custom game, and mitigated by using the Hero Mode flair as well.
+Describe using a Map/HashMap for rules pros and cons: Cleaner, but the breedChance rule cannot be implemented. Could use a "Rule" class to hold the rules, but that would be somewhat messy.
+Describe flair.
+
+***Different rulesets for flair***
+	Config.txt or command line arguments to do. ///
+	***Doors at edges warp. E.g. At right edge warps to left edge on next row. For flair*** ///
+	***Turns taken to kill all Bonks is score.***
+	***Bonks have a 1/10 chance to lay a limited-duration Zap killer trap in a room?***
+	***Graphical?***
+	***Mortal Monogamy: Bonks can only reproduce with the first bonk they do it with.***
+	***Any bonk that's just been born is NOT killed by Zaps. (Merciful God). Must make Bonks act before Zaps, children don't move.
+	Bonks are "born" when created on world creation: yes/no (Can reproduce first turn).
+	***Asexual reproduction? Any genders can reproduce. (Gay Rights)***
+
+###Used the stream to get some general direction at start, find out how to implement interface###
