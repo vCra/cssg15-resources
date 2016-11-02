@@ -1,0 +1,38 @@
+Canvas c = Canvas.getCanvas();
+
+int width = c.getWidth();
+
+int height = c.getHeight();
+
+int xPos = 0;
+
+int currentXPos = 0;
+
+int yPos = 0;
+
+int currentYPos = 0;
+
+java.util.Random rand = new java.util.Random();
+
+circle1.makeVisible();
+
+int count = 0;
+
+while (count < 10){
+
+   xPos = rand.nextInt(width);
+
+   yPos = rand.nextInt(height);
+
+   currentXPos = circle1.getXCoord();
+
+   currentYPos = circle1.getYCoord();
+
+   circle1.slowMoveHorizontal(xPos - currentXPos);
+
+   circle1.slowMoveVertical(yPos - currentYPos);
+
+   count = count + 1;
+   
+}
+  

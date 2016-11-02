@@ -1,0 +1,17 @@
+String color = circle1.getColor();
+if (color.equals("red")) {  
+   int currentSize = circle1.getSize();
+   circle1.changeSize(currentSize * 2);
+}
+
+color = circle2.getColor();
+
+if (color.equals("red")) {
+   int currentSize = circle2.getSize();
+   circle2.changeSize(currentSize * 2);
+}
+ 
+   
+
+
+   

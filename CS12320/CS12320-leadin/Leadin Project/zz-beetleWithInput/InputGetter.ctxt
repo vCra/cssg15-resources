@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=InputGetter()
+comment0.text=\r\n\ constructor\ for\ class\ InputGetter\ default\ string\ loaded\r\n
+comment1.params=
+comment1.target=void\ getInputFromUser()
+comment1.text=\r\n\ brings\ up\ a\ window\ you\ can\ use\ to\ get\ data\ into\ the\ object\r\n
+comment2.params=message
+comment2.target=void\ getInputFromUser(java.lang.String)
+comment2.text=\r\n\ brings\ up\ a\ window\ with\ message\ you\ can\ use\ to\ get\ data\ into\ the\ object\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCurrentValue()
+comment3.text=\r\n\ returns\ input\ as\ a\ String\ \r\n
+numComments=4
