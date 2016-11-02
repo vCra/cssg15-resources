@@ -1,0 +1,1140 @@
+A local area network (LAN) is defined by _____________.
+-the geometric size of the network
+the maximum number of hosts in the network
+the maximum number of hosts in the network and/or the geometric size of the network
+the topology of the network
+The largest geographic area a wide area network (WAN) can span is _______________.
+a town
+a state
+a country
+-the world
+A proposed standard is elevated to ________ standard status after at least two successful tries.
+informational
+historic
+-draft
+None of the choices are correct
+Which of the following is not one of the components of a data communication system?
+Message
+Sender
+Medium
+-All of the choices are correct
+Which of the following is not one of the characteristics of a data communication system?
+Delivery
+Accuracy
+Jitter
+-All of the choices are correct
+Data can flow only in one direction all of the times in a _________ mode.
+-simplex
+half-duplex
+full-duplex
+None of the choices are correct
+Data can flow only in both direction all of the times in a _________ mode.
+simplex
+half_duplex
+-full_duplex
+None of the choices are correct
+Which of the following is not one of the network criteria?
+Performance
+Reliability
+Security
+-All of the choices are correct
+In a _____________ communication, the media needs to be shared between devices.
+point_to_point
+-multipoint
+mesh
+None of the choices are correct
+In a _____________ communication, the media is dedicated.
+-point_to_point
+multipoint
+mesh
+None of the choices are correct
+In a fully connected mesh topology with six computers, we need ________ links.
+6
+36
+-15
+None of the choices are correct
+In a star topology with six computers, we need ________ links.
+-6
+1
+5
+None of the choices are correct
+An RFC is labeled ________ if it must be implemented by all Internet systems.
+-required
+elective
+recommended
+None of the choices are correct
+In the original ARPANET, _______ were directly connected to each other.
+-interface message processors (IMPs)
+host computers
+networks
+routers
+_______ was formed to connect universities with no defense ties.
+ARPANET
+-CSNET
+NSFNET
+ANSNET
+Currently _______ is responsible for the management of Internet domain names and addresses.
+NIC
+-ICANN
+ISOC
+IEFE
+The TCP/IP protocol suite consists of _______ layers.
+two
+three
+-five
+Six
+A router is involved in ____________ layers of the TCP/IP protocol suite.
+two
+-three
+four
+five
+A link-layer switch is involved in ______________ layers of the TCP/IP protocol suite.
+-two
+three
+four
+five
+In the TCP/IP protocol suite, which of the following is an application layer protocol?
+The User Datagram Protocol (UDP)
+The Internet Protocol (IP)
+-The File Transfer Protocol (FTP)
+The Transmission Control Protocol (TCP)
+In the TCP/IP protocol suite, which of the following is a transport-layer protocol?
+The Internet Control Message Protocol (ICMP)
+The Internet Protocol (IP)
+The Address Resolution Protocol (ARP)
+-The Transmission Control Protocol (TCP)
+In the TCP/IP protocol suite, which of the following is a network layer protocol?
+The Stream Control Transmission Protocol (SCTP)
+The Secure Shell (SSH)
+-The Internet Protocol (IP)
+User Datagram Protocol (UDP)
+The transport-layer packet in the TCP/IP protocol suite is called _______________.
+a message
+a datagram
+-a segment or a user datagram
+a frame
+In the TCP/IP protocol suite, the ______ layer is responsible for moving frames from one hop (node) to the next.
+physical
+-data-link
+transport
+network
+In the TCP/IP protocol suite, the physical layer is concerned with the movement of _______ over the physical medium.
+programs
+dialogs
+protocols
+-bits
+In the TCP/IP protocol suite, a port number is the identifier at the____________.
+application layer
+-transport layer
+network layer
+physical layer
+In the TCP/IP protocol suite, a logical address is the identifier at the _______________.
+-network layer
+transport layer
+data-link layer
+application layer
+The_________ layer is responsible for the delivery of a message from one process to another.
+physical
+-transport
+network
+application
+The Internet Protocol (IP) is ________ protocol.
+a reliable
+a connection-oriented
+a reliable and connection-oriented
+-an unreliable
+The application layer in the TCP/IP protocol suite is usually considered to be the combination of ________layers in the OSI model.
+-application, presentation, and session
+application, transport, and network
+application, data-link, and physical
+network, data-link, and physical
+In TCP/IP, a message at the application layer is encapsulated in a packet at the ________ layer.
+network
+-transport
+data-link
+physical
+In TCP/IP, a message at the transport layer is encapsulated in a packet at the ________ layer.
+-network
+transport
+data-link
+physical
+In TCP/IP, a message belonging to the network layer is decapsulated from a packet at the ________ layer.
+network
+transport
+-data-link
+Physical
+In TCP/IP, a message belonging to the transport layer is decapsulated from a packet at the ________ layer.
+-network
+transport
+data-link
+physical
+In TCP/IP, a logical connection between an entity at the network layer can be made with another entity at the ________ layer.
+-network
+transport
+data-link
+physical
+In TCP/IP, a logical connection between an entity at the data-link layer can be made with another entity at the ________ layer.
+network
+transport
+-data-link
+Physical
+In TCP/IP, a packet at the third layer carries data belonging to the ________ layer and the header belonging to the _________ layer.
+third; third
+third; fourth
+-fourth; third
+fourth; fourth
+Polar and bipolar encoding are types of _______ coding.
+-line
+block
+scrambling
+None of the choices are correct
+___________ conversion involves three techniques: line coding, block coding, and scrambling.
+Analog_to_digital
+Digital_to_analog
+Analog_to_analog
+-Digital_to-digital
+In ______ schemes, the voltage level oscillates between a positive and a negative value although it may remain at zero level between the two values.
+-polar
+bipolar
+nonpolar
+None of the choices are correct
+In _____, the level of the voltage determines the value of the bit.
+NRZ_I
+-NRZ_L
+NRZ_I or NRZ_L
+None of the choices are correct
+In ______, the change or lack of change in the level of the voltage determines the value of the bit.
+-NRZ_I
+NRZ_L
+NRZ_I or NRZ_L
+None of the choices are correct
+The idea of RZ and the idea of NRZ-L are combined into the ________ scheme.
+-Manchester
+differential Manchester
+Manchester or differential Manchester
+None of the choices are correct
+The idea of RZ and the idea of NRZ-I are combined into the ________ scheme.
+Manchester
+-differential Manchester
+Manchester or differential Manchester
+None of the choices are correct
+In Manchester and differential Manchester encoding, the transition at the middle of the bit is used for __________.
+bit transfer
+baud transfer
+-synchronization
+None of the choices are correct
+In _______encoding, we use three levels: positive, zero, and negative.
+polar
+-bipolar
+nonpolar
+None of the choices are correct
+The _____ scheme uses data patterns of size 2 and encodes the 2-bit patterns as one signal element belonging to a four-level signal.
+4B5B
+-2B1Q
+B8ZS
+None of the choices are correct
+_______ encoding has a transition at the middle of each bit.
+RZ
+Manchester
+Differential Manchester
+-All the choices are correct
+_______ encoding has a transition at the beginning of each 0 bit.
+RZ
+Manchester
+-Differential Manchester
+All the choices are correct
+Which of the following encoding methods does not provide for synchronization?
+-NRZ_L
+RZ
+NRZ_I
+Manchester
+Which encoding method uses alternating positive and negative values for 1s?
+NRZ_I
+RZ
+Manchester
+-AMI
+Block coding can help in _______ and _________ at the receiver.
+-synchronization and error detection
+synchronization and attenuation
+error detection and attenuation
+error detection and distortion
+________ is the process of converting digital data to a digital signal.
+Block coding
+Line coding
+Scrambling
+-All of the choices are correct
+_______ provides redundancy to ensure synchronization and inherent error detection.
+-Block coding
+Line coding
+Line coding or block coding
+None of the choices are correct
+________ is normally referred to as mB/nB coding; it replaces each m-bit group with an n-bit group.
+-Block coding
+Line coding
+Scrambling
+None of the choices are correct
+________ provides synchronization without increasing the number of bits.
+-Scrambling
+Line coding
+Block coding
+None of the choices are correct
+Two common scrambling techniques are ________.
+NRZ and RZ
+AMI and NRZ
+-B8ZS and HDB3
+Manchester and differential Manchester
+PCM is an example of _______ conversion.
+digital_to_digital
+digital_to_analog
+analog_to_analog
+-analog_to_digital
+The most common technique to change an analog signal to digital data is called __________.
+PAL
+-PCM
+sampling
+None of the choices are correct
+The first step in PCM is ________.
+quantization
+modulation
+-sampling
+None of the choices are correct
+______ finds the value of the signal amplitude for each sample; ____ finds the change from the previous sample.
+DM; PCM
+-PCM; DM
+DM; CM
+None of the choices are correct
+ASK, PSK, FSK, and QAM are examples of ________ conversion.
+digital_to_digital
+-digital_to_analog
+analog_to_analog
+analog_to_digital
+In QAM, both ________ of a carrier frequency are varied.
+frequency and amplitude
+phase and frequency
+-amplitude and phase
+None of the choices are correct
+In ________, the amplitude of the carrier signal is varied to create signal elements. Both frequency and phase remain constant.
+-ASK
+PSK
+FSK
+QAM
+In _________, the frequency of the carrier signal is varied to represent data. Both peak amplitude and phase remain constant.
+ASK
+PSK
+-FSK
+QAM
+In ________, the phase of the carrier is varied to represent two or more different signal elements. Both peak amplitude and frequency remain constant.
+ASK
+-PSK
+FSK
+QAM
+Quadrature amplitude modulation (QAM) is a combination of ___________.
+ASK and FSK
+-ASK and PSK
+PSK and FSK
+None of the choices are correct
+________ uses two carriers, one in-phase and the other quadrature.
+ASK
+PSK
+FSK
+-QAM
+How many carrier frequencies are used in BASK?
+-1
+2
+3
+None of the choices are correct
+How many carrier frequencies are used in BFSK?
+1
+-2
+3
+None of the choices are correct
+How many carrier frequencies are used in BPSK?
+-1
+2
+3
+None of the choices are correct
+Which of the following is not an analog-to-analog conversion?
+AM
+PM
+FM
+-QAM
+In _____ transmission, the carrier signal is modulated so that its amplitude varies with the changing amplitudes of the modulating signal.
+-AM
+PM
+FM
+None of the choices are correct
+In the analog transmission of the digital signal, the baud rate is ___________ the bit rate.
+always less than
+-less than or equal to
+always greater than
+is greater than or equal to
+In ASK, the bandwidth is ________.
+less than the signal rate
+-equal or greater than signal rate
+always equal to signal rate
+five times the signal rate
+With the same signal rate, the bandwidth of FSK is normally ___________ the bandwidth for ASK.
+-greater than
+less than
+equal to
+None of the choices are correct
+The bandwidth of an AM signal is ______________ the bandwidth of the original analog signal.
+equal to
+-two times
+three times
+None of the choices are correct
+In AM radio, the allocated bandwidth for each station is ___________ kHz.
+15
+20
+-10
+None of the choices are correct
+In FM radio, the allocated bandwidth for each station is ___________ kHz.
+100
+-200
+300
+None of the choices are correct
+Circuit switching can be divided into ________ categories.
+two
+three
+four
+-None of the choices are correct
+Packet switching can be divided into ________ categories.
+two
+-three
+four
+None of the choices are correct
+Circuit switching is normally used in ___________ layer.
+-physical
+data-link
+network
+application
+Packet switching is normally used in ___________ layers.
+physical and data-link
+-data-link and network
+network and transport
+transport and application
+Message switching is normally used in ___________ layer.
+physical
+data-link
+network
+-application
+In a circuit-switching network, we have ___________ phase(s).
+one
+two
+-three
+None of the choices are correct
+In a datagram network, we have ___________ phase(s).
+one
+two
+-three
+None of the choices are correct
+In a virtual-switch network, we have ___________ phase(s).
+one
+two
+-three
+None of the choices are correct
+In a ___________ network, each packet is treated independently from all other packets.
+circuit-switched
+virtual-circuit
+-datagram
+None of the choices are correct
+In a datagram network, the routing table is based on the ___________ in the packet.
+flow label
+-destination address
+VCI
+None of the choices are correct
+In a virtual-circuit network, the routing table is based on the ___________ in the packet.
+flow label
+destination address
+-VCI
+None of the choices are correct
+In a datagram network, the destination address ________________________.
+remains the same from the source to the destination
+-changes at each switch
+changes at the destination
+None of the choices are correct
+In a datagram network, we need ______________ phase(s).
+tear-down
+setup
+setup and tear-down
+-None of the choices are correct
+In a virtual-circuit network, we need ______________ phase(s).
+tear-down
+setup
+-setup and tear-down
+None of the choices are correct
+In a __________network, all packets in a message follow the same path.
+datagram
+-virtual-circuit
+circuit-switched
+None of the choices are correct
+In a __________network, each packet in a message may follow a different path.
+-datagram
+virtual-circuit
+circuit-switched
+None of the choices are correct
+IP is a _________ protocol.	 
+connection-oriented unreliable
+connection-oriented reliable
+-connectionless unreliable
+connectionless reliable
+An HLEN value of decimal 10 means _______.
+there are 10 bytes of options
+there are 10 bytes in the header
+there are 40 bytes of options
+-there are 40 bytes in the header
+If the fragment offset has a value of 100, it means that _______.
+the datagram has not been fragmented
+the datagram is 100 bytes in size
+-the first byte of the datagram is byte 800
+None of the choices are correct
+What is needed to determine the number of the last byte of a fragment?
+offset number
+total length
+-both offset number and the total length
+None of the choices are correct
+The IP header size is _______ bytes long.
+-20 to 60
+20
+60
+None of the choices are correct
+Packets in the IP layer are called _________.
+segments
+-datagrams
+frames
+None of the choices are correct
+The total length field defines the total length of the datagram _________.
+-including the header
+excluding the header
+excluding the option length
+None of the choices are correct
+When a datagram is encapsulated in a frame, the total size of the datagram must be less than the _______.
+MUT
+MAT
+-MTU
+None of the choices are correct
+ICMP is a (an) _________ layer protocol.
+application-layer protocol that helps TCP/IP at the network layer
+transport-layer protocol that helps TCP/IP at the network layer
+-network-layer protocol
+data-link layer protocol that helps TCP/IP at the network layer
+Which of the following is true about ICMP messages?
+An ICMP error message may be generated for an ICMP error message
+An ICMP error message may be generated for a fragmented datagram
+An ICMP error message may be generated for a multicast datagram
+-None of the choices are correct
+When a host moves to a new network, its original address is referred to as __________.
+-home
+care-of
+foreign
+None of the choices are correct
+Which of the following addresses are permanent in mobile IP?
+-home
+care-of
+foreign
+None of the choices are correct
+To communicate with a remote host, a computer needs to go through __________ phase(s).
+one
+two
+-three
+None of the choices are correct
+In mobile IP communication, the first phase is called __________.
+-agent discovery
+registration
+data transfer
+None of the choices are correct
+In mobile IP communication, the second phase is called __________.
+agent discovery
+-registration
+data transfer
+None of the choices are correct
+In mobile IP communication, the third phase is called __________.
+agent discovery
+registration
+-data transfer
+None of the choices are correct
+In mobile IP communication, inefficiency in triangle routing is ________ the one in double crossing.
+more severe than
+less severe than
+-in the same level as
+None of the choices are correct
+HTTP uses the services of _________.	 
+UDP
+IP
+-TCP
+DNS
+In HTTP, the first line in a request message is called a _______ line; the first line in the response message is called the ________ line.
+request; response
+status; response
+status; status
+-None of the choices are correct
+In a ___________ connection, one TCP connection is made for each request/response.
+persistent
+-nonpersistent
+persistent or a nonpersistent
+None of the choices are correct
+In a ___________connection, the server leaves the connection open for more requests after sending a response.
+-persistent
+nonpersistent
+persistent or nonpersistent
+None of the choices are correct
+In HTTP, _______ server is a computer that keeps copies of responses to recent requests.
+a regular
+-a proxy
+an auxiliary
+a remote
+An HTTP request message always contains _______.
+a header line and a body
+-a request line and a header line
+a request line, a header line, and a body
+a request line, a header line, a blank line, and a body
+Which of the following is present in both an HTTP request line and a status line?
+-Version number
+URL
+Status code
+Method
+FTP uses the services of ________.
+UDP
+IP
+-TCP
+None of the choices are correct
+In FTP, _________ well-known port(s) is (are) used.
+one
+-two
+three
+four
+During an FTP session the control connection is opened _______.
+-once
+twice
+many times
+None of the choices are correct
+During an FTP session the data connection may be opened _______.
+only once
+only two times
+-as many times as needed
+None of the choices are correct
+In FTP, a file can be organized into records, pages, or a stream of bytes. These are types of an attribute called _______.
+file types
+-data structures
+transmission modes
+None of the choices are correct
+In FTP, there are three types of _______: stream, block, and compressed.
+file types
+data types
+-transmission modes
+None of the choices are correct
+An FTP, ASCII, EBCDIC, and image define an attribute called _______.
+-file type
+data structure
+transmission mode
+None of the choices are correct
+In FTP, when we _______, it is copied from the client to the server.
+retrieve a file
+-store a file
+open a file
+None of the choices are correct
+In the common scenario, the electronic mail system needs _________________________.
+two UAs, two MTAs, and one MAA
+two UAs, two MTAs, and two MAAs
+-two UAs, two pairs of MTAs, and a pair of MAAs
+two UAs, two pairs of MTAs, and two pairs of MAAs
+________ provides service to the user to make the process of sending or receiving a message easier.
+An MTA
+An MAA
+-A UA
+None of the choices are correct
+An e-mail message contains the ________ and the __________.
+header; envelop
+-header; body
+envelop; body
+None of the choices are correct
+In the Internet, an e-mail address consists of two parts: a _______ and a _______.
+-local part; domain name
+global part; domain name
+label; domain name
+local part; label
+_________ is a supplementary protocol that allows non-ASCII data to be sent through e-mail.
+SMPT
+MPEG
+-MIME
+POP
+The formal protocol that defines the MTA client and server in the Internet is called ___________.
+-SMTP
+SNMP
+TELNET
+SSH
+SMTP is a __________protocol.
+pull
+-push
+push and pull
+None of the choices are correct
+The message access protocol is a ________ protocol.
+-pull
+push
+push and pull
+None of the choices are correct
+In the _______ encoding scheme, each 24 bits become four 6-bit chunks, and eventually are sent as 32 bits.
+8bit
+binary
+-base64
+quoted-printable
+In the _______ encoding scheme, a non-ASCII character is sent as 3 characters.
+8bit
+base64
+-quoted-printable
+Binary
+TELNET is an abbreviation for ____________.
+-terminal network
+telephone network
+telecommunication network
+None of the choices are correct
+When a user logs into a local time-sharing system, it is called ________ login.
+-local
+remote
+local or remote
+None of the choices are correct
+When a user wants to access an application program or utility located on a remote machine, he or she performs ___________ login.
+local
+-remote
+local or remote
+None of the choices are correct
+Network Virtual Terminal (NVT) uses two sets of characters, one for _____and one for __________.
+sending; receiving
+request; reply
+-data; control
+None of the choices are correct
+For data, NVT uses US ASCII characters with the highest order bit set to ______.
+1
+-0
+1 or 0
+None of the choices are correct
+For control, NVT uses US ASCII characters with the highest order bit set to ______.
+-1
+0
+1 or 0
+None of the choices are correct
+The _______ translates local characters into NVT characters.
+terminal driver
+-TELNET client
+TELNET server
+pseudoterminal driver
+The _______ translates NVT characters into a form acceptable by the remote operating system.
+terminal driver
+TELNET client
+-TELNET server
+pseudoterminal driver
+The _________ component in the SSH provides confidentiality, integrity, authentication, and compression.
+SSH Application
+SSH-AUTH
+SSH-CONN
+-SSH-TRAN
+Port forwarding is ____________________________.
+a protocol used to forward messages from one port to another port
+a procedure for changing an ephemeral port to a well-known port
+-a service, provided by SSH, that creates a secure channel for applications that do not have security services
+None of the choices are correct
+In a (an) _______ name space, a name is a sequence of characters without structure.
+linear
+-flat
+hierarchical
+organized
+In a (an) _________name space, each name is made of several parts.
+linear
+flat
+-hierarchical
+Organized
+In the DNS, the names are defined in ___________ structure.
+a linear list
+-an inverted-tree
+a three-dimensional
+None of the choices are correct
+The root of the DNS tree is _______.
+a string of 127 characters
+a string of 63 characters
+-a string of 15 characters
+an empty string
+In the domain name space, a full domain name is a sequence of labels separated by ________.
+colons
+semicolons
+-dots
+Commas
+In the domain name space, if a label is terminated by a null string, it is called a __________.
+PQDN
+CQDN
+SQDN
+-None of the choices are correct
+In the domain name space, if a label is not terminated by a null string, it is called a __________.
+FQDN
+-PQDN
+SQDN
+None of the choices are correct
+In the domain name space, a _________ is a subtree of the domain name space.
+label
+name
+-domain
+None of the choices are correct
+In the domain name space, what a server is responsible for or has authority over is called a _________.
+domain
+label
+-zone
+None of the choices are correct
+A _______ server is a computer whose zone system consists of the whole tree.
+domain
+zone
+-root
+Primary
+A ________ server is a computer that stores a file about the zone for which it has an authority.
+-primary
+secondary
+zone
+root
+A ________ server is a computer that transfers the complete information about a zone from another server.
+primary
+-secondary
+zone
+root
+In the Internet, the country domain section uses ___________ country abbreviations.
+-two-character
+three-character
+four-character
+None of the choices are correct
+In __________ resolution, the resolver expects the server to supply the final answer.
+iterative
+-recursive
+straight
+None of the choices are correct
+In __________ resolution, the server returns the IP address of the server that it thinks can resolve the query.
+-iterative
+recursive
+straight
+None of the choices are correct
+DNS can use the services of ________.
+UDP
+TCP
+-either UDP or TCP
+None of the choices are correct
+Packetizing at the network layer involves ___________________________.
+encapsulating the payload at the source
+adds a header that contains the source and destination information
+decapsulating the payload at the destination
+-All of the choices are correct
+Routers in the path are not allowed to ___________________________.
+fragment the packet they receive
+decapsulate the packet
+-change source or destination address
+All of the choices are correct
+The network layer in the Internet provides _________________.
+comprehensive error and flow control
+-limited error control, but no flow control
+comprehensive error control but limited flow control
+All of the choices are correct
+In a virtual-circuit approach, the forwarding decision is based on the value of the _____________ field in the packet header.
+source address
+destination address
+-label
+None of the choices are correct
+In a datagram approach, the forwarding decision is based on the value of the _____________ field in the packet header.
+source address
+-destination address
+label
+None of the choices are correct
+The performance of a network can be measured in terms of ________.
+delay
+throughput
+packet loss
+-All of the choices are correct
+Transmission delay (time) is the ratio of______________________.
+transmission rate to packet length
+transmission rate to distance
+-packet length to transmission rate
+processing time to transmission rate
+Propagation delay (time) is the ratio of______________________.
+transmission rate to propagation speed
+propagation speed to distance
+packet length to propagation speed
+-distance to propagation speed
+When the load in the network reaches the network capacity, the packet delay ___________ and the network throughput reaches ______________.
+increases sharply; its minimum
+-increases sharply; its maximum
+decreases sharply; its minimum
+decreases sharply; its maximum
+In open-loop congestion control, policies are applied ____________________.
+-to prevent congestion before it happens
+to alleviate congestion after it happens
+to either prevent congestion before it happens or alleviate congestion after it happens
+None of the choices are correct
+The __________________ technique is one of the open-loop congestion policies.
+backpressure
+choke packet
+implicit signaling
+-None of the choices are correct
+The__________________ technique is one of the close-loop congestion policies.
+acknowledgment policy
+-choke packet
+discarding policy
+None of the choices are correct
+An IPv4 address is normally represented in base ____ in dotted-decimal notation.
+16
+256
+10
+-None of the choices are correct
+In classful addressing, the IPv4 address space is divided into _______ classes.
+3
+4
+-5
+None of the choices are correct
+The number of addresses assigned to an organization in classless addressing _______.
+can be any number
+must be a multiple of 256
+-must be a power of 2
+None of the choices are correct
+The first address assigned to an organization in classless addressing _______.
+-must be evenly divisible by the number of addresses in the organization
+must be divisible by 128
+must belong to one of the A, B, or C classes
+None of the choices are correct
+In subnetting, the number of addresses in each subnet must _______.
+-be a power of 2
+be a multiple of 128
+be divisible by 128
+None of the choices are correct
+What is the default prefix length for class A in CIDR notation?
+9
+-8
+16
+None of the choices are correct
+What is the default prefix length for class B in CIDR notation?
+9
+8
+-16
+None of the choices are correct
+What is the default prefix length for class C in CIDR notation?
+-24
+8
+16
+None of the choices are correct
+DHCP is a (an) ___________ layer protocol.
+-application
+transport
+network
+data-link
+In DHCP, the client uses ________ port and the server uses _________port.
+an ephemeral; a well-known
+-a well-known; a well-known
+a well-known; an ephemeral
+None of the choices are correct
+DHCP uses the services of _______.
+-UDP
+TCP
+IP
+None of the choices are correct
+_________ allows a site to use a set of private addresses for internal communication and a set of global Internet addresses for communication with the rest of the world.
+DHCP
+-NAT
+IMCP
+None of the choices are correct
+The idea of address aggregation was designed to alleviate the increase in routing table entries when using ________ addressing.
+classful
+-classless
+classful or classless
+None of the choices are correct
+The use of hierarchy in routing tables can ________ the size of the routing tables.
+-reduce
+increase
+neither reduce nor increase
+None of the choices are correct
+Given the Ethernet address 01011010 00010001 01010101 00011000 10101010 00001111 in binary, what is the address in hexadecimal notation?
+5A:88:AA:18:55:F0
+5A:81:BA:81:AA:0F
+5A:18:5A:18:55:0F
+-5A:11:55:18:AA:0F
+If an Ethernet destination address is 07:01:02:03:04:05, then this is a ______ address.
+unicast
+-multicast
+broadcast
+either multicast or broadcast
+If an Ethernet destination address is 08:07:06:05:44:33, then this is a ______ address.
+-unicast
+multicast
+broadcast
+either multicast or broadcast
+Which of the following could not be an Ethernet multicast destination address?
+-43:7B:6C:DE:10:00
+44:AA:C1:23:45:32
+46:56:21:1A:DE:F4
+48:32:21:21:4D:34
+Which of the following could not be an Ethernet unicast destination address?
+B7:7B:6C:DE:10:00
+7B:AA:C1:23:45:32
+-7C:56:21:1A:DE:F4
+83:32:21:21:4D:34
+The _______ layer of Ethernet consists of the LLC sublayer and the MAC sublayer.
+-data link
+physical
+network
+None of the choices are correct
+The _____ sublayer is responsible for the operation of the CSMA/CD access method and framing.
+LLC
+MII
+-MAC
+None of the choices are correct
+Each station on an Ethernet network has a unique _______ address imprinted on its network interface card (NIC).
+16-bit
+32-bit
+64-bit
+-None of the choices are correct
+The minimum frame length for Ethernet is _______bytes.
+32
+80
+128
+-None of the choices are correct
+Fast Ethernet has a data rate of ________Mbps.
+10
+-100
+1000
+10,000
+In _________, autonegotiation allows two devices to negotiate the mode or data rate of operation.
+Standard
+-Fast Ethernet
+Gigabit Ethernet
+Ten-Gigabit Ethernet
+Gigabit Ethernet has a data rate of ________Mbps.
+10
+100
+-1000
+10,000
+In Ethernet addressing, if the least significant bit of the first byte is 0, the address is _________.
+-unicast
+multicast
+broadcast
+None of the choices are correct
+In Ethernet addressing, if the least significant bit of the first byte is 1, the address is _________.
+unicast
+-multicast
+broadcast
+None of the choices are correct
+In Ethernet addressing, if all the bits are 1s, the address is _________.
+unicast
+multicast
+-broadcast
+None of the choices are correct
+In the Ethernet, the _______field is actually added at the physical layer and is not (formally) part of the frame.
+CRC
+-preamble
+address
+SFD
+In the Ethernet frame, the _______ field contains error detection information.
+-CRC
+preamble
+address
+SFD
+The largest portion of the bandwidth for ADSL carries _______.
+voice communication
+upstream data
+-downstream data
+control data
+Another name for the cable TV office is the _______.
+splitter
+fiber node
+combiner
+-head end
+A traditional cable TV network transmits signals ______.
+upstream
+-downstream
+upstream and downstream
+None of the choices are correct
+The original telephone network, which is referred to as the plain old telephone system (POTS), was a (an) ________ system.
+digital
+-analog
+digital as well as analog
+None of the choices are correct
+The traditional cable TV system used ________cable end to end.
+twisted-pair
+-coaxial
+fiber-optic
+None of the choices are correct
+The second generation of cable networks is called a(n) _________ network.
+-HFC
+HCF
+CFH
+None of the choices are correct
+The HFC network uses _______ cable.
+twisted-pair
+coaxial
+fiber-optic
+-a combination of coaxial and fiber-optic
+To use a cable network for data transmission, we need two key devices: a ______ and a _________
+CM; CMS
+CT; CMTS
+-CM; CMTS
+None of the choices are correct
+A (An) ______ signal is the corresponding optical signals of an electrical signal level STS-n.
+-OC-n
+TDM-n
+FDM-n
+None of the choices are correct
+SONET uses _______ TDM multiplexing.
+asynchronous
+-synchronous
+statistical
+None of the choices are correct
+A SONET system can use _________.
+STS multiplexers
+regenerators
+add/drop multiplexers
+-All of the choices are correct
+SONET sends ________ frames per second.
+1000
+2000
+4000
+-8000
+In SONET, __________ allow insertion and extraction of signals.
+regenerators
+-ADMs
+STS multiplexer/demultiplexers
+None of the choices are correct
+In SONET, for each byte, the bits are transmitted ____________.
+from least significant to the most significant
+-from most significant to the least significant
+two at a time
+three at a time
+________ is the cell relay protocol designed by the corresponding Forum and adopted by the ITU-T.
+SONET
+ADM
+-ATM
+None of the choices are correct
+The ATM standard defines ______ layers.
+two
+-three
+four
+five
+An ATM data unit is a cell composed of ______ bytes.
+40
+50
+52
+-53
+In ATM, a(n) ______ is the interface between a user and an ATM switch.
+-UNI
+NNI
+NUI
+None of the choices are correct
+In ATM, a(n) _________ is the interface between two ATM switches.
+-UNI
+NNI
+NUI
+None of the choices are correct
+In ATM, the _______layer accepts transmissions from upper-layer services and maps them into cells.
+physical
+ATM
+-AAL
+None of the choices are correct
+In ATM, the ______ layer provides routing, traffic management, switching, and multiplexing services.
+physical
+-ATM
+AAL
+None of the choices are correct
+In SONET, a ________ is a repeater.
+-regenerator
+ADM
+STS multiplexer/demultiplexer
+None of the choices are correct
